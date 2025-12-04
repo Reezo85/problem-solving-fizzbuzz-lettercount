@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Solving – FizzBuzz & Letter Count</title>
+</head>
+<body>
+  <h1>Problem Solving Exercises</h1>
+  <p>Open your browser console (Ctrl+Shift+J or Cmd+Option+J on Mac) to see results.</p>
+
+  <button onclick="runFizzBuzz()">Run FizzBuzz Example</button>
+  <button onclick="runLetterCount()">Run Letter Count Example</button>
+
+  <script src="./FizzBuzz_LetterCount.js"></script>
+
+  <script>
+    function runFizzBuzz() {
+      console.log("=== Running FizzBuzz with n = 16 ===");
+      fizzBuzz(16);
+    }
+
+    function runLetterCount() {
+      console.log("=== Running Letter Count on 'Caesar' ===");
+      console.log(letterCount("Caesar"));
+    }
+  </script>
+</body>
+</html>
